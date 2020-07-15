@@ -1,0 +1,47 @@
+Getting and Cleaning Data Project
+
+David Cronin
+
+
+
+
+
+Source's:
+
+Information regarding the variables, data, and transformations used in this project can be found in the Johns Hopkins Getting and Cleaing Data course.
+
+Data and Descriptions can be found at the UCI Machine Learning Repository 
+link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+
+
+
+
+Data Set Info:
+
+The expirement used a group of 30 volunteers in the 19 - 48 cohort. 
+
+Each volunteer performed 6 acivities: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying
+
+The accelerometer and gyroscope of a smartphone, a Samsung Galaxy S 2, captured the 3 - axial linear axxeleration and 3 - axial angular velocity at 50hz.
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
+
+
+
+
+
+
+
+
+
+Attirbute Information:
+For each record in the data set the following is recorded.
+    1. Traxial accelerationg from the accelerometer and estimated body acceleration
+    2. Traxial Angular velocity from the gyroscope
+    3. A 561 - feature vector with time and frequency domain variables. its activity            label. An indentifier of the volunteer. 
+    
+    
+    
+Please see README.md for how the data was transformed. 
